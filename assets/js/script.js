@@ -32,7 +32,7 @@ function App() {
         <p>balance left in ${monthName}</p>
         </div>
         <div class="left-days">
-            <h3>${totalDaysLeft}</h3>
+            <h2>${totalDaysLeft}</h2>
             <p>days left</p>
         </div>
     </div>
