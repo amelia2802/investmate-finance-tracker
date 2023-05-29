@@ -16,6 +16,10 @@ The INVESTMATE Finance Tracker offers the following features:
 
 ## Demo
 
+
+https://github.com/amelia2802/investmate-finance-tracker/assets/49182604/717f855a-cbc6-4980-bbe3-de7a8dd3826c
+
+
 ## Getting Started
 
 To run the INVESTMATE Finance Tracker locally on your machine, follow these steps:
