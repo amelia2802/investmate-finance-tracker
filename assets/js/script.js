@@ -2,21 +2,21 @@ const rootElement = document.getElementById("root");
 const monthName = new Date().toLocaleString('default', { month: 'long' });
 const totalDaysLeft = 30 - new Date().getDate(); 
 
-let income = 0;
+let income = 0.0;
 
-let expense = 0;
+let expense = 0.0;
 
-let currentBalance = 0;
+let currentBalance = 0.0;
 
 function addIncome() {
     let amount = prompt("Enter amount");
-    income += parseInt(amount);
+    income += parseFloat(amount);
     render();
 }
 
 function addExpense() {
     let amount = prompt("Enter amount");
-    expense += parseInt(amount);
+    expense += parseFloat(amount);
     render();
 }
 
