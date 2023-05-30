@@ -5,6 +5,8 @@
 }
 
 body {
+    width: 100%;
+    height: auto;
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
 }
@@ -160,6 +162,10 @@ nav ul li a:active {
     margin-top: .9rem;
 }
 
+.operation{
+    display: flex;
+}
+
 .add-income {
     width: 40px;
     height: 40px;
@@ -188,6 +194,16 @@ nav ul li a:active {
     cursor: pointer;
     background: #f89b9e;
     color: antiquewhite;
+}
+
+.remove{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1017/1017530.png);
+    background-size:cover;
+    border: none;
+    margin-left: 15px;
 }
 
 .about {
@@ -273,7 +289,7 @@ img {
     }
 
     .card {
-        width: 90%;
+        width: 100%;
     }
 
     .container {

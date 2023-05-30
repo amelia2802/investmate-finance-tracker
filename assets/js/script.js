@@ -20,6 +20,15 @@ function addExpense() {
     render();
 }
 
+function deleteAmount(type){
+    if(type == income){
+        income = 0;
+    }else{
+        expense = 0;
+    }
+    render();
+}
+
 console.log(income, expense);
 
 function App() {
@@ -40,12 +49,18 @@ function App() {
     <div class="transactions">
         <h2>Transactions</h2>
         <section class="income">
+        <div class="operation">
             <button class="add-income" onclick=addIncome()>+</button>
+            <button class="remove" onclick=deleteAmount(income)></button>
+        </div>
             <h3>Income</h3>
             <p>₹ ${income}</p>
         </section>
         <section class="expense">
-            <button class="add-expense" onclick=addExpense()>+</button>
+            <div class="operation">
+                <button class="add-expense" onclick=addExpense()>+</button>
+                <button class="remove" onclick=deleteAmount(expense)></button>
+            </div>
             <h3>Expense</h3>
             <p>₹ ${expense}</p>
         </section>
