@@ -6,7 +6,7 @@ let income = 0.0;
 
 let expense = 0.0;
 
-let currentBalance = 0.0;
+let currentBalance = 0;
 
 function addIncome() {
     let amount = prompt("Enter amount");
@@ -37,7 +37,7 @@ function App() {
     <div class="card">
     <div class="container">
         <div class="current">
-        <h1>₹ ${currentBalance}</h1>
+        <h1>₹ ${currentBalance.toFixed(2)}</h1>
         <p>balance left in ${monthName}</p>
         </div>
         <div class="left-days">
