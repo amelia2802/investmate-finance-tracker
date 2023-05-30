@@ -18,7 +18,11 @@ The INVESTMATE Finance Tracker offers the following features:
 ## Demo
 
 
-https://github.com/amelia2802/investmate-finance-tracker/assets/49182604/717f855a-cbc6-4980-bbe3-de7a8dd3826c
+
+
+[Demo](https://github.com/amelia2802/investmate-finance-tracker/assets/49182604/eb28692b-155e-448a-8e74-c6eed087af99)
+
+
 
 
 ## Getting Started
