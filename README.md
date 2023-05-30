@@ -2,6 +2,7 @@
 
 The INVESTMATE Finance Tracker is a web-based application built using JavaScript, HTML, and CSS. It helps users manage their income and expenses by allowing them to add, edit, and delete transactions. Additionally, it displays the current balance for the current month and the remaining days of the month, providing users with an overview of their financial situation.
 
+[Live](https://investmate-finance.netlify.app/index.html)
 ## Features
 
 The INVESTMATE Finance Tracker offers the following features:
@@ -15,6 +16,10 @@ The INVESTMATE Finance Tracker offers the following features:
 - **Responsive User Interface**: The user interface is designed to be responsive and user-friendly, ensuring a seamless experience across different devices and screen sizes.
 
 ## Demo
+
+
+https://github.com/amelia2802/investmate-finance-tracker/assets/49182604/717f855a-cbc6-4980-bbe3-de7a8dd3826c
+
 
 ## Getting Started
 
